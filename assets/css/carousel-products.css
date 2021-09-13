@@ -5,12 +5,10 @@
     justify-content: center;
 
 }
-.product__item {
-  object-fit: cover;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.products__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
 }
 .products__list, .products__list--hidden {
     display: none;
@@ -18,6 +16,17 @@
 .products__list--visible {
     display: flex;
     animation: fadeVisibility .5s;
+}
+
+.product__item {
+  object-fit: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product__price {
+  font-size: 1rem;
 }
 
 .carousel-products__actions {
@@ -43,5 +52,40 @@
     margin-left: -3rem;
 }
 .carousel-products__actions button i {
-    color: var(--color-black);
+  color: var(--color-black);
+}
+
+@media (max-width: 900px) {
+  .products__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+  }
+  .carousel-products__actions button[data-js="product__button--next"] {
+      margin-right: -2rem;
+  }
+  .carousel-products__actions button[data-js="product__button--prev"] {
+      margin-left: -2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .products__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+  }
+  .carousel-products__actions button[data-js="product__button--next"] {
+      margin-right: -1.5rem;
+  }
+  .carousel-products__actions button[data-js="product__button--prev"] {
+      margin-left: -1.5rem;
+  }
+}
+@media (max-width: 578px) {
+  .products__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+  }
 }

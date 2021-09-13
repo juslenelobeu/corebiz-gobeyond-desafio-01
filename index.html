@@ -20,7 +20,7 @@
 
   <header class="site__header">
     <div class="container">
-      <div class="flex-row justify-between align-center">
+      <div class="header__content flex-row justify-between align-center">
         <div class="flex-col">
           <a href="/" class="header__logo">
             <img src="./assets/brands/logo-gobeyond.png" alt="Logo Go Beyond">
@@ -28,6 +28,15 @@
         </div>
         <div class="flex-col">
           <nav>
+            <button class="header__button-toggle">
+              <hr>
+              <hr>
+              <hr>
+            </button>
+            <button class="header__button-toggle header__button-toggle--close">
+              <hr class="x">
+              <hr class="y">
+            </button>
             <ul class="header__nav">
               <li class="nav__item">
                 <a class="nav__link" href="">Home</a>
@@ -56,7 +65,7 @@
             </div>
           </form>
         </div>
-        <div class="flex-col">
+        <div class="flex-col align-end">
           <div class="flex-row">
             <div class="header__account">
               <button>
@@ -114,7 +123,7 @@
 
         <div class="carousel-products">
 
-          <div class="flex-row products__list products__list--visible">
+          <div class="products__list products__list--visible">
             <div data-js="product__item" class="product__item product__item--visible">
               <div class="product__tag">
                 <span class="product__text-tag">Off</span>
@@ -261,7 +270,7 @@
   </main>
   <footer class="site__footer">
     <div class="container">
-      <div class="flex-row justify-between align-center">
+      <div class="footer__content flex-row justify-between align-center">
         <div class="flex-col">
           <h1 class="footer__title title">Localização
             <hr>
@@ -308,6 +317,7 @@
 
   <script src="./assets/js/slider.js"></script>
   <script src="./assets/js/carousel-products.js"></script>
+  <script src="./assets/js/menu-toggle.js"></script>
 </body>
 
 </html>
