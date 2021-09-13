@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/0ff086b57a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/slider.css">
 </head>
 
 <body>
@@ -73,7 +74,35 @@
       </div>
     </div>
   </header>
-  <section class="site__slider"></section>
+  <section class="site__slider">
+    <div data-js="slider__item" class="slider__item slider__item--visible">
+      <div class="slider__headline">
+        <h1 class="slider__title">Olá, você quer entrar de cabeça em desenvolvimento?</h1>
+        <h2 class="slider__subtitle">front-end • back-end • mobile</h2>
+      </div>
+      <img class="slider__image" src="./assets/images/image-slider-one.jpg" alt="">
+    </div>
+    <div data-js="slider__item" class="slider__item">
+      <div class="slider__headline">
+        <h1 class="slider__title">Assorted color dinosaur</h1>
+      </div>
+      <img class="slider__image" src="./assets/images/image-slider-one.jpg" alt="">
+    </div>
+    <div data-js="slider__item" class="slider__item">
+      <div class="slider__headline">
+        <h1 class="slider__title">Cupcakes with sprinkles on wooden background</h1>
+      </div>
+      <img class="slider__image" src="./assets/images/image-slider-one.jpg" alt="">
+    </div>
+    <div class="slider__actions">
+      <button data-js="slider__button--prev" aria-label="Slide anterior">
+        <i class="fas fa-2x fa-chevron-left"></i>
+      </button>
+      <button data-js="slider__button--next" aria-label="Próximo slide">
+        <i class="fas fa-2x fa-chevron-right"></i>
+      </button>
+    </div>
+  </section>
   <main class="site__content">
     <section class="content__carousel-products"></section>
     <section class="content__newsletter">
@@ -136,6 +165,7 @@
     </div>
   </footer>
 
+  <script src="./assets/js/slider.js"></script>
 </body>
 
 </html>
