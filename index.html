@@ -16,7 +16,63 @@
 
 <body>
 
-  <header class="site__header"></header>
+  <header class="site__header">
+    <div class="container">
+      <div class="flex-row justify-between align-center">
+        <div class="flex-col">
+          <a href="/" class="header__logo">
+            <img src="./assets/brands/logo-gobeyond.png" alt="Logo Go Beyond">
+          </a>
+        </div>
+        <div class="flex-col">
+          <nav>
+            <ul class="header__nav">
+              <li class="nav__item">
+                <a class="nav__link" href="">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Categoria 1
+                  <i class="fas fa-caret-down"></i>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Categoria 2
+                  <i class="fas fa-caret-down"></i>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex-col">
+          <form class="header__search" action="" method="post">
+            <div class="search__inputGroup">
+              <input type="search" placeholder="O que está procurando?">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+        <div class="flex-col">
+          <div class="flex-row">
+            <div class="header__account">
+              <button>
+                <i class="far fa-user"></i>
+                <span>Minha Conta</span>
+              </button>
+            </div>
+            <div class="header__cart">
+              <span class="cart__badge badge">1</span>
+              <a href="">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <section class="site__slider"></section>
   <main class="site__content">
     <section class="content__carousel-products"></section>
