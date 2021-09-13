@@ -32,3 +32,21 @@ button {
 input {
   border: none;
 }
+
+/* header */
+.site__header {}
+
+/* slider */
+.site__slider {}
+
+/* main */
+.site__content {}
+
+/* carousel products */
+.content__carousel-products {}
+
+/* newsletter */
+.content__newsletter {}
+
+/* footer */
+.site__footer {}
