@@ -70,12 +70,12 @@
     border: none;
     opacity: .7;
 }
-.slider .slider__actions button[data-js="slider__button--next"] {
+.slider__actions button[data-js="slider__button--next"] {
     margin-right: 20px;
 }
-.slider .slider__actions button[data-js="slider__button--prev"] {
+.slider__actions button[data-js="slider__button--prev"] {
     margin-left: 20px;
 }
-.slider .slider__actions button i {
+.slider__actions button i {
     color: var(--color-white)
 }
