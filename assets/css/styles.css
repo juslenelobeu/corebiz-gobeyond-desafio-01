@@ -141,7 +141,20 @@ input {
 .content__carousel-products {}
 
 /* newsletter */
-.content__newsletter {}
+.content__newsletter {
+  background-color: var(--color-black-95);
+  padding: 2rem 0;
+}
+.content__newsletter h1 {
+  font-size: 1.3rem;
+  color: var(--color-black-20);
+}
+.content__newsletter .input {
+  width: 250px;
+}
+.content__newsletter .btn {
+  width: 130px;
+}
 
 /* footer */
 .site__footer {}
