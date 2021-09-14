@@ -174,7 +174,7 @@ input {
 
 /* carousel products */
 .content__carousel-products {
-  margin: 2rem 0;
+  margin: 2.5rem 0;
 }
 .carousel-products__title hr {
   width: 70px;
@@ -341,6 +341,12 @@ input {
 }
 .footer__brands a:hover {
   transform: scale(1.1);
+}
+
+@media (min-width: 1500px) {
+  .search__inputGroup {
+    width: 280px;
+  }
 }
 
 @media (max-width: 1366px) {
