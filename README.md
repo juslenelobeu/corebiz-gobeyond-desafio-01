@@ -78,7 +78,7 @@ Apesar de já utilizar o <strong>CSS</strong> no dia-a-dia, para fazer este desa
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Link Github Pages: [HTML](https://www.mongodb.com/)
+Link Github Pages: [preview](https://juslenelobeu.github.io/corebiz-gobeyond-desafio-01/)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
