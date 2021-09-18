@@ -3,13 +3,7 @@
  <img src="./assets/brands/logo-gobeyond.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Desafio 02 - Go Beyond | Corebiz</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
+<h3 align="center">Desafio 01 - Go Beyond | Corebiz</h3>
 
 ---
 
@@ -98,9 +92,3 @@ Feito com&ensp;❤️&ensp;por Juslene Lobeu&ensp;👋🏽&ensp;Entre em contato
 [![Web Site](https://img.shields.io/badge/-Juslene%20Lobeu-purple?style=flat-square&logo=Web&logoColor=white&link=https://juslenelobeudesigner.com.br/)](https://juslenelobeudesigner.com.br/) 
 [![Linkedin Badge](https://img.shields.io/badge/-Juslene%20Lobeu-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juslenelobeu/)](https://www.linkedin.com/in/kjuslenelobeu/) 
 [![Gmail Badge](https://img.shields.io/badge/-juslenelobeu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juslenelobeu@gmail.com)](mailto:juslenelobeu@gmail.com)
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
